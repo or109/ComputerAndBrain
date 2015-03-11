@@ -1,0 +1,37 @@
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\bin\Debug\CABFinal.exe
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\bin\Debug\CABFinal.exe.config
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.ExAnalogHour.resources
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.ExMinus.resources
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.ExPlaceFill.resources
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.ExThreePic.resources
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.ExSeeThreeObj.resources
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.ExTimeFill.resources
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.ExWordsHour.resources
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.ExThreeObj.resources
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.GradesHistory.resources
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.Main.resources
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.Properties.Resources.resources
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.csproj.GenerateResource.Cache
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.exe
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.pdb
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\bin\Debug\CABFinal.pdb
+d:\מסמכים\Visual Studio 2013\Projects\CABFinal\obj\Debug\CABFinal.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\bin\Debug\CABFinal.exe.config
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.exe
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.pdb
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.ExThreeObj.resources
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.GradesHistory.resources
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.Main.resources
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.Properties.Resources.resources
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.csproj.GenerateResource.Cache
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\bin\Debug\CABFinal.exe
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\bin\Debug\CABFinal.pdb
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.BasicForm.resources
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.frmAnalogHour.resources
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.frmMinus.resources
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.frmPlaceFill.resources
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.frmThreePic.resources
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.frmSeeThreeObj.resources
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.frmTimeFill.resources
+C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.frmWordsHour.resources
