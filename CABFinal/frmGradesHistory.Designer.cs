@@ -41,11 +41,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.tbTime = new System.Windows.Forms.TextBox();
-            this.tbDeltaTwo = new System.Windows.Forms.TextBox();
             this.tbDeltaOne = new System.Windows.Forms.TextBox();
             this.tbGrade = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArc)).BeginInit();
             this.SuspendLayout();
@@ -177,16 +176,6 @@
             this.label5.TabIndex = 2;
             this.label5.Text = "ציון קודם:";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(100, 144);
-            this.label6.Name = "label6";
-            this.label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label6.Size = new System.Drawing.Size(88, 13);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "ציון לפני קודם:";
-            // 
             // tbTime
             // 
             this.tbTime.Location = new System.Drawing.Point(11, 81);
@@ -194,14 +183,6 @@
             this.tbTime.ReadOnly = true;
             this.tbTime.Size = new System.Drawing.Size(82, 20);
             this.tbTime.TabIndex = 4;
-            // 
-            // tbDeltaTwo
-            // 
-            this.tbDeltaTwo.Location = new System.Drawing.Point(30, 141);
-            this.tbDeltaTwo.Name = "tbDeltaTwo";
-            this.tbDeltaTwo.ReadOnly = true;
-            this.tbDeltaTwo.Size = new System.Drawing.Size(63, 20);
-            this.tbDeltaTwo.TabIndex = 5;
             // 
             // tbDeltaOne
             // 
@@ -219,7 +200,18 @@
             this.tbGrade.Size = new System.Drawing.Size(51, 20);
             this.tbGrade.TabIndex = 7;
             // 
-            // GradesHistory
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(31, 163);
+            this.button2.Name = "button2";
+            this.button2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.button2.Size = new System.Drawing.Size(130, 23);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "הצג גרף";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // frmGradesHistory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -227,18 +219,17 @@
             this.ClientSize = new System.Drawing.Size(584, 226);
             this.Controls.Add(this.tbGrade);
             this.Controls.Add(this.tbDeltaOne);
-            this.Controls.Add(this.tbDeltaTwo);
             this.Controls.Add(this.tbTime);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblFinale);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tbID);
-            this.Name = "GradesHistory";
+            this.Name = "frmGradesHistory";
             this.Text = "ציונים";
             this.Load += new System.EventHandler(this.GradesHistory_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
@@ -258,9 +249,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox tbTime;
-        private System.Windows.Forms.TextBox tbDeltaTwo;
         private System.Windows.Forms.TextBox tbDeltaOne;
         private System.Windows.Forms.TextBox tbGrade;
         private System.Windows.Forms.DataGridView dgvArc;
@@ -268,5 +257,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn time;
         private System.Windows.Forms.DataGridViewTextBoxColumn grade;
         private System.Windows.Forms.DataGridViewTextBoxColumn timeall;
+        private System.Windows.Forms.Button button2;
     }
 }

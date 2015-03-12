@@ -13,29 +13,56 @@ namespace CBFinalProject
     public partial class ExThreeObj : frmBasicForm
     {
         public string[] WordsArray { get; set; }
+        public string[] MissWordsArray { get; set; }
 
-        public ExThreeObj(string[] Words)
+        public ExThreeObj(string[] Words, string[] MissWords)
         {
             InitializeComponent();
             WordsArray = Words;
+            MissWordsArray = MissWords;
         }
 
         public override void CheckTestGrade()
         {
-            if (tbOne.Text == WordsArray[0])
+            bool[] b = { false, false, false };
+
+            for (int i = 0; i < 3; i++)
             {
-                FinalGrade++;
+                if (tbOne.Text == WordsArray[i] && b[i] == false)
+                {
+                    FinalGrade++;
+                    b[i] = true;
+                }
+                if (tbTwo.Text == WordsArray[i] && b[i] == false)
+                {
+                    FinalGrade++;
+                    b[i] = true;
+                }
+                if (tbThree.Text == WordsArray[i] && b[i] == false)
+                {
+                    FinalGrade++;
+                    b[i] = true;
+                }
             }
-            if (tbTwo.Text == WordsArray[1])
+
+            for (int i = 0; i < 3; i++)
             {
-                FinalGrade++;
+                if ((tbOne.Text == MissWordsArray[i * 2] || tbOne.Text == MissWordsArray[i * 2 + 1]) && b[i] == false)
+                {
+                    FinalGrade += 0.5;
+                    b[i] = true;
+                }
+                if ((tbTwo.Text == MissWordsArray[i * 2] || tbTwo.Text == MissWordsArray[i * 2 + 1]) && b[i] == false)
+                {
+                    FinalGrade += 0.5;
+                    b[i] = true;
+                }
+                if ((tbThree.Text == MissWordsArray[i * 2] || tbThree.Text == MissWordsArray[i * 2 + 1]) && b[i] == false)
+                {
+                    FinalGrade += 0.5;
+                    b[i] = true;
+                }
             }
-            if (tbThree.Text == WordsArray[2])
-            {
-                FinalGrade++;
-            }
-                
-        
         }
     }
 }

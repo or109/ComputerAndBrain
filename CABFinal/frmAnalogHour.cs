@@ -23,7 +23,7 @@ namespace CBFinalProject
             {
                 FinalGrade++;
             }
-            else if (tbHour.Text == "20:00" || tbHour.Text == "20:00")
+            else if (tbHour.Text == "20:00")
             {
                 FinalGrade += 0.5;
             }

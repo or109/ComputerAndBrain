@@ -16,12 +16,10 @@ C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal
 C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.Properties.Resources.resources
 C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.frmMain.resources
 C:\Users\Daniel\Desktop\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.frmBasicForm.resources
+C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.Properties.Resources.resources
 C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\bin\Debug\CABFinal.exe.config
-C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.exe
-C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.pdb
 C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\bin\Debug\CABFinal.exe
 C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\bin\Debug\CABFinal.pdb
-C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.csprojResolveAssemblyReference.cache
 C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.frmAnalogHour.resources
 C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.frmMinus.resources
 C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.frmPlaceFill.resources
@@ -33,5 +31,10 @@ C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\D
 C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.frmGradesHistory.resources
 C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.frmMain.resources
 C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.frmBasicForm.resources
-C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.Properties.Resources.resources
+C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.GradesReportForm.resources
 C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.csproj.GenerateResource.Cache
+C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\RdlCompile.cache
+C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\RdlCompile.compiled
+C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.exe
+C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CABFinal.pdb
+C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\obj\Debug\CBFinalProject.csprojResolveAssemblyReference.cache

@@ -22,14 +22,10 @@ namespace CBFinalProject
         private void InitializeComponent()
         {
             this.SuspendLayout();
-            // 
-            // OurForm
-            // 
             this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Name = "OurForm";
             this.ResumeLayout(false);
-
         }
     }
 }

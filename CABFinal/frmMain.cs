@@ -18,21 +18,21 @@ namespace CBFinalProject
 
         public List<Form> TestsScreen { get; set; }
 
-        public int[] TestTimesCounter = { 0,0,0,0,0,0,0,0 };
+        public int[] TestTimesCounter = { 0, 0, 0, 0, 0, 0, 0, 0 };
         public double[] SubTestGrades = { 0, 0, 0, 0, 0, 0, 0, 0 };
-        
+
         int displayCounterStop = 0;
         public Timer tmrTemp;
-        
+
         string idTest;
-        
+
 
         public frmMain()
         {
             InitializeComponent();
-            
+
             CurrentTest = 0;
-            
+
             tmr_MainTimer = new Timer();
             tmr_MainTimer.Interval = 1000;
 
@@ -44,19 +44,19 @@ namespace CBFinalProject
 
             // Init Screens on load
             TestsScreen = new List<Form>();
-            
+
             TestsScreen.Add(new frmTimeFill());
             TestsScreen.Add(new frmPlaceFill());
             TestsScreen.Add(new frmSeeThreeObj());
             TestsScreen.Add(new frmThreePic());
-            
+
             // for this screen we need some info from stage 3 so we init this stage later
             TestsScreen.Add(null);
-            
+
             TestsScreen.Add(new frmMinus());
             TestsScreen.Add(new frmWordsHour());
             TestsScreen.Add(new frmAnalogHour());
-           
+
         }
 
         private void btn_start_Click(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace CBFinalProject
             // Check id
             if (idTest.Length == 0)
             {
-                MessageBox.Show("יש להקליד תז");
+                MessageBox.Show("יש להקליד ת.ז");
             }
             else
             {
@@ -74,18 +74,18 @@ namespace CBFinalProject
                 btn_next.Visible = true;
 
                 MainPanel.Controls.Clear();
-                
+
                 tmr_MainTimer.Tick += tmr_MainTimer_Tick;
                 tmr_MainTimer.Start();
-                
+
                 Form subForm = TestsScreen[CurrentTest];
                 subForm.TopLevel = false;
                 subForm.FormBorderStyle = FormBorderStyle.None;
                 MainPanel.Controls.Add(subForm);
-                
+
                 subForm.Visible = true;
             }
-          
+
         }
 
         void tmr_MainTimer_Tick(object sender, EventArgs e)
@@ -95,11 +95,12 @@ namespace CBFinalProject
 
         private void btn_next_Click(object sender, EventArgs e)
         {
-            
+
             // the words that shown at stage 3
             string[] words = null;
-            
-            
+            string[] missWords = null;
+
+
             // Get the grade of this level of the test
             ((frmBasicForm)TestsScreen[CurrentTest]).CheckTestGrade();
             SubTestGrades[CurrentTest] = ((frmBasicForm)TestsScreen[CurrentTest]).FinalGrade;
@@ -110,23 +111,24 @@ namespace CBFinalProject
             if (CurrentTest < 8)
             {
                 Form subForm = TestsScreen[CurrentTest];
-                
+
                 // check if test 4 and init it
                 if (subForm is frmSeeThreeObj)
                 {
                     words = ((frmSeeThreeObj)subForm).Selectedword;
-                    TestsScreen[4] = new ExThreeObj(words);
-                    
+                    missWords = ((frmSeeThreeObj)subForm).MisstakeWords;
+                    TestsScreen[4] = new ExThreeObj(words, missWords);
+
                     // disalbe next button
                     btn_next.Enabled = false;
-                    
+
                     // init display timer
                     tmrTemp = new Timer();
                     tmrTemp.Interval = 1000;
                     tmrTemp.Tick += tmrTemp_Tick;
                     tmrTemp.Start();
                 }
-           
+
 
                 // test change
                 subForm.TopLevel = false;
@@ -138,9 +140,8 @@ namespace CBFinalProject
             else
             {
                 tmr_MainTimer.Stop();
-                MessageBox.Show("המבחן תם!!!!");
+                MessageBox.Show("הגעת לסופו של המבחן");
                 MainPanel.Controls.Clear();
-                
 
                 // Display history
                 frmGradesHistory gradeHisto = new frmGradesHistory(SubTestGrades, idTest, TestTimesCounter);
@@ -159,7 +160,7 @@ namespace CBFinalProject
         void tmrTemp_Tick(object sender, EventArgs e)
         {
             // display the screen 10 sec
-            if(displayCounterStop == 10)
+            if (displayCounterStop == 10)
             {
                 tmrTemp.Stop();
                 btn_next.Enabled = true;

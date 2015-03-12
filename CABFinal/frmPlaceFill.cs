@@ -32,21 +32,21 @@ namespace CBFinalProject
             }
 
             // Check the floor
-            if (cbFloor.Text == "1")
+            if (cbFloor.Text == "2")
             {
                 FinalGrade++;
             }
-            else if (cbFloor.Text == "2")
+            else if (cbFloor.Text == "1")
             {
                 FinalGrade += 0.5;
             }
             
             // Check the floor
-            if (cbBuilding.Text == "א")
+            if (cbBuilding.Text == "יג")
             {
                 FinalGrade++;
             }
-            else if (cbBuilding.Text == "ב")
+            else if (cbBuilding.Text == "ג")
             {
                 FinalGrade += 0.5;
             }

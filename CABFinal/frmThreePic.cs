@@ -40,7 +40,7 @@ namespace CBFinalProject
             // Fill the first Pic
             int r = rnd.Next(htPics.Keys.Count);
 
-            pbOne.Image = Image.FromFile(@"C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\bin\Pics\" + r.ToString() +".jpg");
+            pbOne.Image = Image.FromFile(@"C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\bin\Pics\" + r.ToString() + ".jpg");
             CurrentPic[0] = htPics[r.ToString()].ToString();
 
 

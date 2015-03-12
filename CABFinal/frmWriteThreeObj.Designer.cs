@@ -62,12 +62,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label1.Location = new System.Drawing.Point(122, 22);
+            this.label1.Location = new System.Drawing.Point(189, 18);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label1.Size = new System.Drawing.Size(332, 20);
+            this.label1.Size = new System.Drawing.Size(229, 20);
             this.label1.TabIndex = 7;
-            this.label1.Text = "5. רשום את הפריטים מסעיף 3 שים לב לסדר";
+            this.label1.Text = "5. רשום את הפריטים מסעיף 3";
             // 
             // ExThreeObj
             // 

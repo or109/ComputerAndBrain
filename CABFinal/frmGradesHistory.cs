@@ -24,10 +24,8 @@ namespace CBFinalProject
             label3.Visible = false;
             label4.Visible = false;
             label5.Visible = false;
-            label6.Visible = false;
             tbGrade.Visible = false;
             tbTime.Visible = false;
-            tbDeltaTwo.Visible = false;
             tbDeltaOne.Visible = false;
         }
 
@@ -56,7 +54,6 @@ namespace CBFinalProject
             // Get the past grades and present them
             string[] lastTwoGrades = getHistoryByID(id, true);
             tbDeltaOne.Text = lastTwoGrades[0];
-            tbDeltaTwo.Text = lastTwoGrades[1];
 
             // Build the string to save to the file
             string currentTest = id + @"!" +
@@ -76,7 +73,7 @@ namespace CBFinalProject
             fileReader.Close();
             File.Delete(@"C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\Resources\arc.txt");
             str = currentTest + Environment.NewLine + str;
-            
+
             file = new StreamWriter(@"C:\לימודים\פרוייקט סיכום המחשב והמוח\CABFinal\Resources\arc.txt", true);
             file.Write(str);
             file.Close();
@@ -139,6 +136,24 @@ namespace CBFinalProject
         {
             getHistoryByID(tbID.Text, false);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            List<ExamGrades> lstExams = new List<ExamGrades>();
+            ExamGrades ex = new ExamGrades();
+            ex.ID = 3030;
+            ex.TotalGrade = 30;
+            ex.GradesList = new double[] {3.1,4.1,4,6};
+            ex.TimesCounterList = new int[] {1,3,6,2}; 
+            lstExams.Add(ex);
+
+
+
+            GradesReportForm frmReport = new GradesReportForm(lstExams);
+
+            frmReport.ShowDialog();
+        }
+
 
         private void GradesHistory_Load(object sender, EventArgs e)
         {
